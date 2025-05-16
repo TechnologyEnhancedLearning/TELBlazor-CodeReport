@@ -213,7 +213,9 @@ var assemblies = [
   {
     "name": "TELBlazor.Components.ShowCase.Shared",
     "classes": [
-      { "name": "TELBlazor.Components.ShowCase.Shared.Pages.ComponentPages.BaseComponentPages.TELButtonPage", "rp": "TELBlazor.Components.ShowCase.Shared_TELButtonPage.html", "cl": 2, "ucl": 3, "cal": 5, "tl": 23, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.ShowCase.Shared.Layouts.ComponentLayouts.ShowCase", "rp": "TELBlazor.Components.ShowCase.Shared_ShowCase.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 24, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.ShowCase.Shared.Pages.ComponentPages.BaseComponentPages.TELButtonPage", "rp": "TELBlazor.Components.ShowCase.Shared_TELButtonPage.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 30, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.ShowCase.Shared.Pages.ComponentPages.TestComponentPages.CssSourceCheckerPage", "rp": "TELBlazor.Components.ShowCase.Shared_CssSourceCheckerPage.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "rp": "TELBlazor.Components.ShowCase.Shared_SerilogLogLevelSwitcherService.html", "cl": 0, "ucl": 99, "cal": 99, "tl": 168, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
