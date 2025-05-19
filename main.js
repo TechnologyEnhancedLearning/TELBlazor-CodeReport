@@ -210,38 +210,16 @@ for (i = 0, l = charts.length; i < l; i++) {
 }
 
 var assemblies = [
-  {
-    "name": "TELBlazor.Components.ShowCase.Shared",
-    "classes": [
-      { "name": "TELBlazor.Components.ShowCase.Shared.Layouts.ComponentLayouts.ShowCase", "rp": "TELBlazor.Components.ShowCase.Shared_ShowCase.html", "cl": 0, "ucl": 3, "cal": 3, "tl": 24, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.ShowCase.Shared.Pages.ComponentPages.BaseComponentPages.TELButtonPage", "rp": "TELBlazor.Components.ShowCase.Shared_TELButtonPage.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 30, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.ShowCase.Shared.Pages.ComponentPages.TestComponentPages.CssSourceCheckerPage", "rp": "TELBlazor.Components.ShowCase.Shared_CssSourceCheckerPage.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 11, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "rp": "TELBlazor.Components.ShowCase.Shared_SerilogLogLevelSwitcherService.html", "cl": 0, "ucl": 99, "cal": 99, "tl": 168, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-    ]},
 ];
 
-var metrics = [{ "name": "Crap Score", "abbreviation": "crp", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" }, { "name": "Cyclomatic complexity", "abbreviation": "cc", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" }, { "name": "Line coverage", "abbreviation": "cov", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }, { "name": "Branch coverage", "abbreviation": "bcov", "explanationUrl": "https://en.wikipedia.org/wiki/Code_coverage" }];
+var metrics = [];
 
 var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
-      { "name": "Crap Score", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" },
-      { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
 ];
 
 var riskHotspots = [
-  {
-    "assembly": "TELBlazor.Components.ShowCase.Shared", "class": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components.ShowCase.Shared_SerilogLogLevelSwitcherService.html", "methodName": "StoreLogLevelWithTimestamp()", "methodShortName": "StoreLogLevelWithTimestamp()", "fileIndex": 0, "line": 133,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
-  {
-    "assembly": "TELBlazor.Components.ShowCase.Shared", "class": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components.ShowCase.Shared_SerilogLogLevelSwitcherService.html", "methodName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "methodShortName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "fileIndex": 0, "line": 36,
-    "metrics": [
-      { "value": 72, "exceeded": true },
-      { "value": 8, "exceeded": false },
-    ]},
 ];
 
 var branchCoverageAvailable = true;

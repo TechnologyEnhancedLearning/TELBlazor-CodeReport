@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>05/16/2025 - 12:21:05</Generatedon>
-    <Parser>MultiReport (2x Cobertura)</Parser>
-    <Assemblies>1</Assemblies>
-    <Classes>4</Classes>
-    <Files>4</Files>
+    <Generatedon>05/19/2025 - 15:24:26</Generatedon>
+    <Parser>Cobertura</Parser>
+    <Assemblies>0</Assemblies>
+    <Classes>0</Classes>
+    <Files>0</Files>
     <Coveredlines>0</Coveredlines>
-    <Uncoveredlines>111</Uncoveredlines>
-    <Coverablelines>111</Coverablelines>
-    <Totallines>233</Totallines>
-    <Linecoverage>0</Linecoverage>
+    <Uncoveredlines>0</Uncoveredlines>
+    <Coverablelines>0</Coverablelines>
+    <Totallines>0</Totallines>
+    <Linecoverage></Linecoverage>
     <Coveredbranches>0</Coveredbranches>
-    <Totalbranches>26</Totalbranches>
-    <Branchcoverage>0</Branchcoverage>
+    <Totalbranches>0</Totalbranches>
     <Coveredmethods>0</Coveredmethods>
     <Fullcoveredmethods>0</Fullcoveredmethods>
-    <Totalmethods>19</Totalmethods>
-    <Methodcoverage>0</Methodcoverage>
-    <Fullmethodcoverage>0</Fullmethodcoverage>
+    <Totalmethods>0</Totalmethods>
+    <Methodcoverage></Methodcoverage>
+    <Fullmethodcoverage></Fullmethodcoverage>
   </Summary>
-  <Coverage>
-    <Assembly name="TELBlazor.Components.ShowCase.Shared" classes="4" coverage="0" coveredlines="0" coverablelines="111" totallines="233" branchcoverage="0" coveredbranches="0" totalbranches="26" coveredmethods="0" fullcoveredmethods="0" totalmethods="19" methodcoverage="0" fullmethodcoverage="0">
-      <Class name="TELBlazor.Components.ShowCase.Shared.Layouts.ComponentLayouts.ShowCase" coverage="0" coveredlines="0" coverablelines="3" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" fullcoveredmethods="0" totalmethods="3" methodcoverage="0" fullmethodcoverage="0" />
-      <Class name="TELBlazor.Components.ShowCase.Shared.Pages.ComponentPages.BaseComponentPages.TELButtonPage" coverage="0" coveredlines="0" coverablelines="7" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" fullcoveredmethods="0" totalmethods="5" methodcoverage="0" fullmethodcoverage="0" />
-      <Class name="TELBlazor.Components.ShowCase.Shared.Pages.ComponentPages.TestComponentPages.CssSourceCheckerPage" coverage="0" coveredlines="0" coverablelines="2" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" fullcoveredmethods="0" totalmethods="2" methodcoverage="0" fullmethodcoverage="0" />
-      <Class name="TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService" coverage="0" coveredlines="0" coverablelines="99" totallines="168" branchcoverage="0" coveredbranches="0" totalbranches="26" coveredmethods="0" fullcoveredmethods="0" totalmethods="9" methodcoverage="0" fullmethodcoverage="0" />
-    </Assembly>
-  </Coverage>
+  <Coverage />
 </CoverageReport>
