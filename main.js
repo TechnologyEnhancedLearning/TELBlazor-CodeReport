@@ -213,8 +213,8 @@ var assemblies = [
   {
     "name": "TELBlazor.Components",
     "classes": [
-      { "name": "TELBlazor.Components.Components.BaseComponents.TELButton", "rp": "TELBlazor.Components_TELButton.html", "cl": 22, "ucl": 2, "cal": 24, "tl": 141, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.Components.BaseComponents.TELButtonSubComponent", "rp": "TELBlazor.Components_TELButtonSubComponent.html", "cl": 16, "ucl": 0, "cal": 16, "tl": 65, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.Components.BaseComponents.TELButton", "rp": "TELBlazor.Components_TELButton.html", "cl": 22, "ucl": 2, "cal": 24, "tl": 122, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.Components.BaseComponents.TELButtonSubComponent", "rp": "TELBlazor.Components_TELButtonSubComponent.html", "cl": 16, "ucl": 0, "cal": 16, "tl": 64, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.Configuration.TELBlazorBaseComponentConfiguration", "rp": "TELBlazor.Components_TELBlazorBaseComponentConfiguration.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.DI.DI", "rp": "TELBlazor.Components_DI.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 59, "cb": 0, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.Extensions.TELButtonStyleExtensions", "rp": "TELBlazor.Components_TELButtonStyleExtensions.html", "cl": 6, "ucl": 4, "cal": 10, "tl": 26, "cb": 1, "tb": 5, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
