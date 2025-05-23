@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>05/22/2025 - 16:49:56</Generatedon>
+    <Generatedon>05/23/2025 - 11:00:45</Generatedon>
     <Parser>Cobertura</Parser>
     <Assemblies>1</Assemblies>
     <Classes>8</Classes>
     <Files>8</Files>
     <Coveredlines>56</Coveredlines>
-    <Uncoveredlines>18</Uncoveredlines>
-    <Coverablelines>74</Coverablelines>
-    <Totallines>353</Totallines>
-    <Linecoverage>75.6</Linecoverage>
+    <Uncoveredlines>10</Uncoveredlines>
+    <Coverablelines>66</Coverablelines>
+    <Totallines>302</Totallines>
+    <Linecoverage>84.8</Linecoverage>
     <Coveredbranches>6</Coveredbranches>
-    <Totalbranches>13</Totalbranches>
-    <Branchcoverage>46.1</Branchcoverage>
+    <Totalbranches>11</Totalbranches>
+    <Branchcoverage>54.5</Branchcoverage>
     <Coveredmethods>37</Coveredmethods>
     <Fullcoveredmethods>35</Fullcoveredmethods>
     <Totalmethods>40</Totalmethods>
@@ -21,11 +21,11 @@
     <Fullmethodcoverage>87.5</Fullmethodcoverage>
   </Summary>
   <Coverage>
-    <Assembly name="TELBlazor.Components" classes="8" coverage="75.6" coveredlines="56" coverablelines="74" totallines="353" branchcoverage="46.1" coveredbranches="6" totalbranches="13" coveredmethods="37" fullcoveredmethods="35" totalmethods="40" methodcoverage="92.5" fullmethodcoverage="87.5">
+    <Assembly name="TELBlazor.Components" classes="8" coverage="84.8" coveredlines="56" coverablelines="66" totallines="302" branchcoverage="54.5" coveredbranches="6" totalbranches="11" coveredmethods="37" fullcoveredmethods="35" totalmethods="40" methodcoverage="92.5" fullmethodcoverage="87.5">
       <Class name="TELBlazor.Components.Components.BaseComponents.TELButton" coverage="91.6" coveredlines="22" coverablelines="24" totallines="122" branchcoverage="75" coveredbranches="3" totalbranches="4" coveredmethods="16" fullcoveredmethods="15" totalmethods="16" methodcoverage="100" fullmethodcoverage="93.7" />
       <Class name="TELBlazor.Components.Components.BaseComponents.TELButtonSubComponent" coverage="100" coveredlines="16" coverablelines="16" totallines="64" branchcoverage="100" coveredbranches="2" totalbranches="2" coveredmethods="12" fullcoveredmethods="12" totalmethods="12" methodcoverage="100" fullmethodcoverage="100" />
       <Class name="TELBlazor.Components.Core.Configuration.TELBlazorBaseComponentConfiguration" coverage="100" coveredlines="2" coverablelines="2" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" fullcoveredmethods="2" totalmethods="2" methodcoverage="100" fullmethodcoverage="100" />
-      <Class name="TELBlazor.Components.Core.DI.DI" coverage="0" coveredlines="0" coverablelines="10" totallines="76" branchcoverage="0" coveredbranches="0" totalbranches="2" coveredmethods="0" fullcoveredmethods="0" totalmethods="1" methodcoverage="0" fullmethodcoverage="0" />
+      <Class name="TELBlazor.Components.Core.DI.DI" coverage="0" coveredlines="0" coverablelines="2" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" fullcoveredmethods="0" totalmethods="1" methodcoverage="0" fullmethodcoverage="0" />
       <Class name="TELBlazor.Components.Core.Extensions.TELButtonStyleExtensions" coverage="60" coveredlines="6" coverablelines="10" totallines="26" branchcoverage="20" coveredbranches="1" totalbranches="5" coveredmethods="1" fullcoveredmethods="0" totalmethods="1" methodcoverage="100" fullmethodcoverage="0" />
       <Class name="TELBlazor.Components.Core.Models.Logging.LocalStorageLogLevel" coverage="0" coveredlines="0" coverablelines="2" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" fullcoveredmethods="0" totalmethods="2" methodcoverage="0" fullmethodcoverage="0" />
       <Class name="TELBlazor.Components.Core.TELComponentBase" coverage="100" coveredlines="8" coverablelines="8" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" fullcoveredmethods="5" totalmethods="5" methodcoverage="100" fullmethodcoverage="100" />
