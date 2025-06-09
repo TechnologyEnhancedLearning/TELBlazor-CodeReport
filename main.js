@@ -216,10 +216,11 @@ var assemblies = [
       { "name": "TELBlazor.Components.Components.BaseComponents.TELButton", "rp": "TELBlazor.Components_TELButton.html", "cl": 22, "ucl": 2, "cal": 24, "tl": 122, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Components.BaseComponents.TELButtonSubComponent", "rp": "TELBlazor.Components_TELButtonSubComponent.html", "cl": 16, "ucl": 0, "cal": 16, "tl": 64, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.Configuration.TELBlazorBaseComponentConfiguration", "rp": "TELBlazor.Components_TELBlazorBaseComponentConfiguration.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.Core.DI.DI", "rp": "TELBlazor.Components_DI.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.Extensions.TELButtonStyleExtensions", "rp": "TELBlazor.Components_TELButtonStyleExtensions.html", "cl": 6, "ucl": 4, "cal": 10, "tl": 26, "cb": 1, "tb": 5, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.Models.Logging.LocalStorageLogLevel", "rp": "TELBlazor.Components_LocalStorageLogLevel.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.TELComponentBase", "rp": "TELBlazor.Components_TELComponentBase.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 28, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.OptionalImplementations.Core.DI.DI", "rp": "TELBlazor.Components_DI.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "rp": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "cl": 0, "ucl": 99, "cal": 99, "tl": 165, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.TELBlazorPackageVersion.VersionInfo", "rp": "TELBlazor.Components_VersionInfo.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 2, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
@@ -229,9 +230,23 @@ var metrics = [{ "name": "Crap Score", "abbreviation": "crp", "explanationUrl": 
 var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
+      { "name": "Crap Score", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" },
+      { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
 ];
 
 var riskHotspots = [
+  {
+    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "StoreLogLevelWithTimestamp()", "methodShortName": "StoreLogLevelWithTimestamp()", "fileIndex": 0, "line": 132,
+    "metrics": [
+      { "value": 110, "exceeded": true },
+      { "value": 10, "exceeded": false },
+    ]},
+  {
+    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "methodShortName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "fileIndex": 0, "line": 35,
+    "metrics": [
+      { "value": 72, "exceeded": true },
+      { "value": 8, "exceeded": false },
+    ]},
 ];
 
 var branchCoverageAvailable = true;
