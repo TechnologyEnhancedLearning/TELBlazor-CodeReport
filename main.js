@@ -220,7 +220,7 @@ var assemblies = [
       { "name": "TELBlazor.Components.Core.Models.Logging.LocalStorageLogLevel", "rp": "TELBlazor.Components_LocalStorageLogLevel.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.TELComponentBase", "rp": "TELBlazor.Components_TELComponentBase.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 28, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.OptionalImplementations.Core.DI.DI", "rp": "TELBlazor.Components_DI.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 25, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "rp": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "cl": 0, "ucl": 99, "cal": 99, "tl": 165, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "rp": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "cl": 0, "ucl": 99, "cal": 99, "tl": 165, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.TELBlazorPackageVersion.VersionInfo", "rp": "TELBlazor.Components_VersionInfo.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 8, "cb": 2, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
@@ -236,13 +236,13 @@ var riskHotspotMetrics = [
 
 var riskHotspots = [
   {
-    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "StoreLogLevelWithTimestamp()", "methodShortName": "StoreLogLevelWithTimestamp()", "fileIndex": 0, "line": 132,
+    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "StoreLogLevelWithTimestamp()", "methodShortName": "StoreLogLevelWithTimestamp()", "fileIndex": 0, "line": 132,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "methodShortName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "fileIndex": 0, "line": 35,
+    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "methodShortName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "fileIndex": 0, "line": 35,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },

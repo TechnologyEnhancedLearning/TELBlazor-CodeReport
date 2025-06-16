@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>06/11/2025 - 15:01:06</Generatedon>
+    <Generatedon>06/16/2025 - 15:02:02</Generatedon>
     <Parser>Cobertura</Parser>
     <Assemblies>1</Assemblies>
     <Classes>9</Classes>
@@ -29,7 +29,7 @@
       <Class name="TELBlazor.Components.Core.Models.Logging.LocalStorageLogLevel" coverage="0" coveredlines="0" coverablelines="2" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" fullcoveredmethods="0" totalmethods="2" methodcoverage="0" fullmethodcoverage="0" />
       <Class name="TELBlazor.Components.Core.TELComponentBase" coverage="100" coveredlines="8" coverablelines="8" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" fullcoveredmethods="5" totalmethods="5" methodcoverage="100" fullmethodcoverage="100" />
       <Class name="TELBlazor.Components.OptionalImplementations.Core.DI.DI" coverage="0" coveredlines="0" coverablelines="2" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" fullcoveredmethods="0" totalmethods="1" methodcoverage="0" fullmethodcoverage="0" />
-      <Class name="TELBlazor.Components.ShowCase.Shared.Services.HelperServices.SerilogLogLevelSwitcherService" coverage="0" coveredlines="0" coverablelines="99" totallines="165" branchcoverage="0" coveredbranches="0" totalbranches="26" coveredmethods="0" fullcoveredmethods="0" totalmethods="9" methodcoverage="0" fullmethodcoverage="0" />
+      <Class name="TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService" coverage="0" coveredlines="0" coverablelines="99" totallines="165" branchcoverage="0" coveredbranches="0" totalbranches="26" coveredmethods="0" fullcoveredmethods="0" totalmethods="9" methodcoverage="0" fullmethodcoverage="0" />
       <Class name="TELBlazor.Components.TELBlazorPackageVersion.VersionInfo" coverage="100" coveredlines="2" coverablelines="2" totallines="8" branchcoverage="50" coveredbranches="2" totalbranches="4" coveredmethods="2" fullcoveredmethods="2" totalmethods="2" methodcoverage="100" fullmethodcoverage="100" />
     </Assembly>
   </Coverage>
