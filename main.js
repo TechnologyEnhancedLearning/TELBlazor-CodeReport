@@ -221,7 +221,6 @@ var assemblies = [
       { "name": "TELBlazor.Components.Core.TELComponentBase", "rp": "TELBlazor.Components_TELComponentBase.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 28, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.OptionalImplementations.Core.DI.DI", "rp": "TELBlazor.Components_DI.html", "cl": 0, "ucl": 6, "cal": 6, "tl": 38, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "rp": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "cl": 0, "ucl": 99, "cal": 99, "tl": 165, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.OptionalImplementations.TestComponents.LogLevelSwitcher", "rp": "TELBlazor.Components_LogLevelSwitcher.html", "cl": 0, "ucl": 21, "cal": 21, "tl": 43, "cb": 0, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.TELBlazorPackageVersion.VersionInfo", "rp": "TELBlazor.Components_VersionInfo.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 8, "cb": 2, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
