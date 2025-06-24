@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>06/24/2025 - 14:57:48</Generatedon>
+    <Generatedon>06/24/2025 - 15:00:01</Generatedon>
     <Parser>Cobertura</Parser>
     <Assemblies>1</Assemblies>
     <Classes>9</Classes>
-    <Files>10</Files>
-    <Coveredlines>61</Coveredlines>
+    <Files>9</Files>
+    <Coveredlines>60</Coveredlines>
     <Uncoveredlines>113</Uncoveredlines>
-    <Coverablelines>174</Coverablelines>
-    <Totallines>495</Totallines>
-    <Linecoverage>35</Linecoverage>
-    <Coveredbranches>8</Coveredbranches>
-    <Totalbranches>41</Totalbranches>
-    <Branchcoverage>19.5</Branchcoverage>
-    <Coveredmethods>39</Coveredmethods>
-    <Fullcoveredmethods>37</Fullcoveredmethods>
-    <Totalmethods>53</Totalmethods>
-    <Methodcoverage>73.5</Methodcoverage>
-    <Fullmethodcoverage>69.8</Fullmethodcoverage>
+    <Coverablelines>173</Coverablelines>
+    <Totallines>488</Totallines>
+    <Linecoverage>34.6</Linecoverage>
+    <Coveredbranches>6</Coveredbranches>
+    <Totalbranches>37</Totalbranches>
+    <Branchcoverage>16.2</Branchcoverage>
+    <Coveredmethods>38</Coveredmethods>
+    <Fullcoveredmethods>36</Fullcoveredmethods>
+    <Totalmethods>52</Totalmethods>
+    <Methodcoverage>73</Methodcoverage>
+    <Fullmethodcoverage>69.2</Fullmethodcoverage>
   </Summary>
   <Coverage>
-    <Assembly name="TELBlazor.Components" classes="9" coverage="35" coveredlines="61" coverablelines="174" totallines="495" branchcoverage="19.5" coveredbranches="8" totalbranches="41" coveredmethods="39" fullcoveredmethods="37" totalmethods="53" methodcoverage="73.5" fullmethodcoverage="69.8">
+    <Assembly name="TELBlazor.Components" classes="9" coverage="34.6" coveredlines="60" coverablelines="173" totallines="488" branchcoverage="16.2" coveredbranches="6" totalbranches="37" coveredmethods="38" fullcoveredmethods="36" totalmethods="52" methodcoverage="73" fullmethodcoverage="69.2">
       <Class name="TELBlazor.Components.Components.BaseComponents.TELButton" coverage="91.6" coveredlines="22" coverablelines="24" totallines="122" branchcoverage="75" coveredbranches="3" totalbranches="4" coveredmethods="16" fullcoveredmethods="15" totalmethods="16" methodcoverage="100" fullmethodcoverage="93.7" />
       <Class name="TELBlazor.Components.Components.BaseComponents.TELButtonSubComponent" coverage="100" coveredlines="16" coverablelines="16" totallines="64" branchcoverage="100" coveredbranches="2" totalbranches="2" coveredmethods="12" fullcoveredmethods="12" totalmethods="12" methodcoverage="100" fullmethodcoverage="100" />
       <Class name="TELBlazor.Components.Core.Configuration.TELBlazorBaseComponentConfiguration" coverage="100" coveredlines="2" coverablelines="2" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" fullcoveredmethods="2" totalmethods="2" methodcoverage="100" fullmethodcoverage="100" />
@@ -30,7 +30,7 @@
       <Class name="TELBlazor.Components.Core.TELComponentBase" coverage="100" coveredlines="8" coverablelines="8" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" fullcoveredmethods="5" totalmethods="5" methodcoverage="100" fullmethodcoverage="100" />
       <Class name="TELBlazor.Components.OptionalImplementations.Core.DI.DI" coverage="45.4" coveredlines="5" coverablelines="11" totallines="47" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" fullcoveredmethods="1" totalmethods="4" methodcoverage="25" fullmethodcoverage="25" />
       <Class name="TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService" coverage="0" coveredlines="0" coverablelines="99" totallines="165" branchcoverage="0" coveredbranches="0" totalbranches="26" coveredmethods="0" fullcoveredmethods="0" totalmethods="9" methodcoverage="0" fullmethodcoverage="0" />
-      <Class name="TELBlazor.Components.TELBlazorPackageVersion.VersionInfo" coverage="100" coveredlines="2" coverablelines="2" totallines="8" branchcoverage="50" coveredbranches="2" totalbranches="4" coveredmethods="2" fullcoveredmethods="2" totalmethods="2" methodcoverage="100" fullmethodcoverage="100" />
+      <Class name="TELBlazor.Components.TELBlazorPackageVersion.VersionInfo" coverage="100" coveredlines="1" coverablelines="1" totallines="1" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" fullcoveredmethods="1" totalmethods="1" methodcoverage="100" fullmethodcoverage="100" />
     </Assembly>
   </Coverage>
 </CoverageReport>
