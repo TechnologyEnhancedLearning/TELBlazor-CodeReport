@@ -213,14 +213,14 @@ var assemblies = [
   {
     "name": "TELBlazor.Components",
     "classes": [
-      { "name": "TELBlazor.Components.Components.BaseComponents.TELButton", "rp": "TELBlazor.Components_TELButton.html", "cl": 22, "ucl": 2, "cal": 24, "tl": 120, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.Components.BaseComponents.TELButtonSubComponent", "rp": "TELBlazor.Components_TELButtonSubComponent.html", "cl": 14, "ucl": 0, "cal": 14, "tl": 62, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.Components.BaseComponents.TELButton", "rp": "TELBlazor.Components_TELButton.html", "cl": 17, "ucl": 0, "cal": 17, "tl": 120, "cb": 3, "tb": 4, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.Components.BaseComponents.TELButtonSubComponent", "rp": "TELBlazor.Components_TELButtonSubComponent.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 62, "cb": 2, "tb": 2, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.Configuration.TELBlazorBaseComponentConfiguration", "rp": "TELBlazor.Components_TELBlazorBaseComponentConfiguration.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.Core.Extensions.TELButtonStyleExtensions", "rp": "TELBlazor.Components_TELButtonStyleExtensions.html", "cl": 6, "ucl": 4, "cal": 10, "tl": 26, "cb": 1, "tb": 5, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.Core.Extensions.TELButtonStyleExtensions", "rp": "TELBlazor.Components_TELButtonStyleExtensions.html", "cl": 4, "ucl": 4, "cal": 8, "tl": 26, "cb": 1, "tb": 5, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TELBlazor.Components.Core.Models.Logging.LocalStorageLogLevel", "rp": "TELBlazor.Components_LocalStorageLogLevel.html", "cl": 0, "ucl": 2, "cal": 2, "tl": 14, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.Core.TELComponentBase", "rp": "TELBlazor.Components_TELComponentBase.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 28, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.OptionalImplementations.Core.DI.DI", "rp": "TELBlazor.Components_DI.html", "cl": 5, "ucl": 6, "cal": 11, "tl": 47, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "rp": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "cl": 0, "ucl": 99, "cal": 99, "tl": 165, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.Core.TELComponentBase", "rp": "TELBlazor.Components_TELComponentBase.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 28, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.OptionalImplementations.Core.DI.DI", "rp": "TELBlazor.Components_DI.html", "cl": 3, "ucl": 3, "cal": 6, "tl": 47, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "rp": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "cl": 0, "ucl": 70, "cal": 70, "tl": 165, "cb": 0, "tb": 26, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
@@ -235,13 +235,13 @@ var riskHotspotMetrics = [
 
 var riskHotspots = [
   {
-    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "StoreLogLevelWithTimestamp()", "methodShortName": "StoreLogLevelWithTimestamp()", "fileIndex": 0, "line": 132,
+    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "StoreLogLevelWithTimestamp()", "methodShortName": "StoreLogLevelWithTimestamp()", "fileIndex": 0, "line": 135,
     "metrics": [
       { "value": 110, "exceeded": true },
       { "value": 10, "exceeded": false },
     ]},
   {
-    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "methodShortName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "fileIndex": 0, "line": 35,
+    "assembly": "TELBlazor.Components", "class": "TELBlazor.Components.OptionalImplementations.Core.Services.HelperServices.SerilogLogLevelSwitcherService", "reportPath": "TELBlazor.Components_SerilogLogLevelSwitcherService.html", "methodName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "methodShortName": "InitializeLogLevelFromAsyncSourceIfAvailable()", "fileIndex": 0, "line": 36,
     "metrics": [
       { "value": 72, "exceeded": true },
       { "value": 8, "exceeded": false },
